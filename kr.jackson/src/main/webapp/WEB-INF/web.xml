@@ -15,8 +15,6 @@
     <param-value>kr.jackson.AppConfig</param-value>
   </context-param>
 
-
-
   <filter>
     <filter-name>myFilter</filter-name>
     <filter-class>kr.jackson.MyFilter</filter-class>
@@ -29,10 +27,6 @@
 
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
-  
-  <listener>
-    <listener-class>kr.jackson.MyListener</listener-class>
   </listener>
   
   <servlet>
